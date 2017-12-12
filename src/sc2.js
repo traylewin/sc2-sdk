@@ -1,4 +1,6 @@
-const fetch = require('isomorphic-fetch');
+import fetchPonyfill from 'fetch-ponyfill';
+
+const { fetch } = fetchPonyfill(Promise);
 
 class SDKError extends Error {
   constructor(message, obj) {

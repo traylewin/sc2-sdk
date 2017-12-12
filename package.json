@@ -29,6 +29,7 @@
   "homepage": "https://github.com/adcpm/sc2-sdk#readme",
   "dependencies": {
     "debug": "^2.2.0",
+    "fetch-ponyfill": "^4.1.0",
     "isomorphic-fetch": "^2.2.1",
     "postinstall-build": "^5.0.1"
   },
